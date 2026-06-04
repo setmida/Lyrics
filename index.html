@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetMida - Testi e Traduzioni</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --text-color: #e0e0e0;
+            --accent-color: #ffb400; /* Giallo stile Audiomack */
+            --card-bg: #1e1e1e;
+            --meta-color: #888888;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #222;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: var(--accent-color);
+            margin-bottom: 5px;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--meta-color);
+            font-style: italic;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--text-color);
+            margin-top: 30px;
+            border-left: 3px solid var(--accent-color);
+            padding-left: 10px;
+        }
+
+        .track-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .track-item {
+            background-color: var(--card-bg);
+            margin-bottom: 12px;
+            padding: 15px 20px;
+            border-radius: 6px;
+            transition: transform 0.2s, border-color 0.2s;
+            border: 1px solid #2c2c2c;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .track-item:hover {
+            transform: translateX(5px);
+            border-color: var(--accent-color);
+        }
+
+        .track-link {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            flex-grow: 1;
+        }
+
+        .track-genre {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            background-color: rgba(255, 180, 0, 0.1);
+            padding: 4px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #222;
+            font-size: 0.9rem;
+            color: var(--meta-color);
+        }
+
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>SetMida</h1>
+        <div class="subtitle">Archivio Ufficiale Testi e Traduzioni</div>
+    </header>
+
+    <main>
+        <h2>Brani Originali</h2>
+        <ul class="track-list">
+            <li class="track-item">
+                <a class="track-link" href="always-only-you.html">Always Only You</a>
+                <span class="track-genre">Ballad</span>
+            </li>
+            <!-- I tuoi prossimi brani pop/dance andranno qui -->
+        </ul>
+
+        <h2>Progetti Letterari</h2>
+        <ul class="track-list">
+            <li class="track-item">
+                <a class="track-link" href="x-agosto.html">X Agosto (Giovanni Pascoli)</a>
+                <span class="track-genre">Folk / Recital</span>
+            </li>
+            <li class="track-item">
+                <a class="track-link" href="la-scappatella-der-leone.html">La scappatella der leone (Trilussa)</a>
+                <span class="track-genre">Folk / Dialect</span>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>© Ascolta i miei brani su <a href="https://audiomack.com/setmida" target="_blank">Audiomack</a></p>
+    </footer>
+</div>
+
+</body>
+</html>
