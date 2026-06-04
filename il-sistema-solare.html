@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetMida - IL SISTEMA SOLARE (Testo)</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --text-color: #e0e0e0;
+            --accent-color: #ffb400; /* Giallo stile Audiomack */
+            --meta-color: #888888;
+            --spoken-bg: #1a1a24;    /* Sfondo bluastro/spaziale per il parlato */
+            --dance-color: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #222;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: var(--accent-color);
+            margin-bottom: 5px;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .author {
+            font-size: 1.1rem;
+            color: var(--meta-color);
+            font-style: italic;
+        }
+
+        .lyrics-wrapper {
+            background-color: #1e1e1e;
+            padding: 30px;
+            border-radius: 8px;
+            border: 1px solid #2c2c2c;
+        }
+
+        /* Sezione Parlata con Archi */
+        .spoken-word {
+            background-color: var(--spoken-bg);
+            border-left: 4px solid #515175;
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 35px;
+            font-size: 1.15rem;
+            color: #b0b0d0;
+            white-space: pre-line;
+        }
+
+        .section-tag {
+            display: block;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--meta-color);
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        /* Sezione Dance Anni 90 */
+        .dance-drop {
+            font-size: 1.25rem;
+            font-weight: 700;
+            line-height: 2;
+            text-align: center;
+            letter-spacing: 1px;
+            color: var(--dance-color);
+            white-space: pre-line;
+            text-transform: uppercase;
+        }
+
+        .planet-highlight {
+            color: var(--accent-color);
+            text-shadow: 0 0 8px rgba(255, 180, 0, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #222;
+            font-size: 0.9rem;
+            color: var(--meta-color);
+        }
+
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .navigation-links {
+            margin-top: 20px;
+            font-size: 0.95rem;
+        }
+
+        .navigation-links a {
+            color: var(--text-color);
+            text-decoration: none;
+            border: 1px solid #444;
+            padding: 5px 12px;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .navigation-links a:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .lyrics-wrapper {
+                padding: 20px;
+            }
+            .dance-drop {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>IL SISTEMA SOLARE</h1>
+        <div class="author">Dance Anni '90 — Testo e musica di SetMida</div>
+        <div class="navigation-links">
+            <a href="index.html">← Torna al'Elenco</a>
+        </div>
+    </header>
+
+    <main class="lyrics-wrapper">
+        
+        <!-- INTRO PARLATA -->
+        <div class="spoken-word">
+            <span class="section-tag">[Intro Parlata - Sottofondo Archi]</span>
+            Il sole è il centro del sistema solare
+            e tutti i pianeti gravitano attorno a lui 
+            in un moto armonioso
+            
+            Così come assiso su un trono regale 
+            il sole governa la famiglia degli astri
+            che gli fa da corona
+        </div>
+
+        <!-- DROP DANCE ANNI 90 -->
+        <div class="dance-drop">
+            <span class="section-tag" style="text-align: center;">[Cassa 90's - Stacco e Ripresa]</span>
+            In ordine dal sole:
+            <span class="planet-highlight">Mercurio, Venere, Terra, Marte, Giove, Saturno, Urano, Nettuno.</span>
+            <span class="planet-highlight">Mercurio, Venere, Terra, Marte, Giove, Saturno, Urano, Nettuno.</span>
+            
+            In ordine dal sole:
+            <span class="planet-highlight">Mercurio, Venere, Terra, Marte, Giove, Saturno, Urano, Nettuno.</span>
+            <span class="planet-highlight">Mercurio, Venere, Terra, Marte, Giove, Saturno, Urano, Nettuno.</span>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© Ascolta la mia musica su <a href="https://audiomack.com/setmida" target="_blank">Audiomack</a></p>
+    </footer>
+</div>
+
+</body>
+</html>
