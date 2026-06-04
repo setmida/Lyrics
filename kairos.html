@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetMida - KAIROS (Testo)</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --text-color: #e0e0e0;
+            --accent-color: #ffb400; /* Giallo stile Audiomack */
+            --meta-color: #888888;
+            --poetry-color: #ffffff; /* Bianco per i versi delle strofe */
+            --chorus-bg: #252525;    /* Sfondo per il ritornello */
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #222;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: var(--accent-color);
+            margin-bottom: 5px;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .author {
+            font-size: 1.1rem;
+            color: var(--meta-color);
+            font-style: italic;
+        }
+
+        .lyrics-wrapper {
+            background-color: #1e1e1e;
+            padding: 30px;
+            border-radius: 8px;
+            border: 1px solid #2c2c2c;
+        }
+
+        .stanza {
+            color: var(--poetry-color);
+            font-size: 1.15rem;
+            white-space: pre-line;
+            margin-bottom: 30px;
+        }
+
+        /* Stile per il Ritornello */
+        .chorus {
+            background-color: var(--chorus-bg);
+            color: var(--accent-color);
+            font-style: italic;
+            font-weight: 600;
+            font-size: 1.15rem;
+            white-space: pre-line;
+            text-align: center;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 6px;
+            border-left: 4px solid var(--accent-color);
+            border-right: 4px solid var(--accent-color);
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        .chorus-tag {
+            display: block;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--meta-color);
+            margin-bottom: 10px;
+            font-style: normal;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #222;
+            font-size: 0.9rem;
+            color: var(--meta-color);
+        }
+
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .navigation-links {
+            margin-top: 20px;
+            font-size: 0.95rem;
+        }
+
+        .navigation-links a {
+            color: var(--text-color);
+            text-decoration: none;
+            border: 1px solid #444;
+            padding: 5px 12px;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .navigation-links a:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .lyrics-wrapper {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>KAIROS</h1>
+        <div class="author">(il momento perfetto) — Testo e musica di SetMida</div>
+        <div class="navigation-links">
+            <a href="index.html">← Torna al Palinsesto</a>
+        </div>
+    </header>
+
+    <main class="lyrics-wrapper">
+        
+        <!-- STROFA 1 -->
+        <div class="stanza">
+            Passeggiavo sulla spiaggia,
+            era quasi giunta l'ora,
+            la luce iniziò la sua invasione,
+            ed io mi persi nell’aurora
+        </div>
+
+        <!-- STROFA 2 -->
+        <div class="stanza">
+            Delle voci alle mie spalle,
+            una sola mi fece voltare.
+            Era una dea, così bella
+            Da rubarmi il fiato.
+        </div>
+
+        <!-- RITORNELLO 1 -->
+        <div class="chorus">
+            <span class="chorus-tag">[Ritornello]</span>
+            Mi passò accanto, mi sorrise,
+            mi persi nei suoi occhi,
+            non riuscivo a credere,
+            quando lei si perse nei miei.
+        </div>
+
+        <!-- STROFA 3 -->
+        <div class="stanza">
+            Per tutta la vita, è ciò che vorrei,
+            i suoi sorrisi causerei,
+            nel suo sguardo affogherei,
+            per i suoi baci, morirei
+        </div>
+
+        <!-- RITORNELLO 2 -->
+        <div class="chorus">
+            <span class="chorus-tag">[Ritornello]</span>
+            Mi passò accanto, mi sorrise,
+            mi persi nei suoi occhi,
+            non riuscivo a credere,
+            quando lei si perse nei miei.
+        </div>
+
+        <!-- STROFA 4 -->
+        <div class="stanza">
+            Ha riempito il mio mondo,
+            avere la sua mano nella mia,
+            tenerla tra le mie braccia,
+            è lei l’altra metà, quella che
+            non credevo di trovare mai
+        </div>
+
+        <!-- RITORNELLO 3 -->
+        <div class="chorus">
+            <span class="chorus-tag">[Ritornello]</span>
+            Mi passò accanto, mi sorrise,
+            mi persi nei suoi occhi,
+            non riuscivo a credere,
+            quando lei si perse nei miei.
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© Ascolta la mia musica su <a href="https://audiomack.com/setmida" target="_blank">Audiomack</a></p>
+    </footer>
+</div>
+
+</body>
+</html>
