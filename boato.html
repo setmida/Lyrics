@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetMida - BOATO (Testo)</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --text-color: #e0e0e0;
+            --accent-color: #ffb400; /* Giallo stile Audiomack */
+            --meta-color: #888888;
+            --poetry-color: #ffffff;
+            --pirate-red: #ff4500;   /* Rosso fuoco per i gridi di battaglia */
+            --chorus-bg: #1c1414;    /* Sfondo scuro rossastro per il ritornello */
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #222;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: var(--accent-color);
+            margin-bottom: 5px;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .author {
+            font-size: 1.1rem;
+            color: var(--meta-color);
+            font-style: italic;
+        }
+
+        .lyrics-wrapper {
+            background-color: #1e1e1e;
+            padding: 30px;
+            border-radius: 8px;
+            border: 1px solid #2c2c2c;
+        }
+
+        .stanza {
+            color: var(--poetry-color);
+            font-size: 1.15rem;
+            white-space: pre-line;
+            margin-bottom: 30px;
+        }
+
+        /* Stile speciale per il Grido dei Pirati */
+        .yo-oh {
+            color: var(--pirate-red);
+            font-weight: 900;
+            letter-spacing: 1px;
+        }
+
+        /* Stile potente per il Ritornello di Denuncia */
+        .chorus {
+            background-color: var(--chorus-bg);
+            color: var(--poetry-color);
+            font-weight: 600;
+            font-size: 1.2rem;
+            white-space: pre-line;
+            padding: 25px;
+            margin: 35px 0;
+            border-radius: 6px;
+            border: 2px solid var(--pirate-red);
+            box-shadow: 0 0 15px rgba(255, 69, 0, 0.1);
+        }
+
+        .chorus-tag {
+            display: block;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--pirate-red);
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #222;
+            font-size: 0.9rem;
+            color: var(--meta-color);
+        }
+
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .navigation-links {
+            margin-top: 20px;
+            font-size: 0.95rem;
+        }
+
+        .navigation-links a {
+            color: var(--text-color);
+            text-decoration: none;
+            border: 1px solid #444;
+            padding: 5px 12px;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .navigation-links a:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .lyrics-wrapper {
+                padding: 20px;
+            }
+            .chorus {
+                font-size: 1.1rem;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>BOATO</h1>
+        <div class="author">Pirate Folk / Protest Song — Testo e musica di SetMida</div>
+        <div class="navigation-links">
+            <a href="index.html">← Torna all'Elenca</a>
+        </div>
+    </header>
+
+    <main class="lyrics-wrapper">
+        
+        <!-- STROFA 1 -->
+        <div class="stanza">
+            Alzati in piedi con dignità,
+            guarda c'è un simbolo di libertà.
+             
+            <span class="yo-oh">Yo! Oh!</span> per coloro che sanno,
+            <span class="yo-oh">Yo! Oh!</span> lottare contro il tiranno.
+        </div>
+
+        <!-- RITORNELLO 1 -->
+        <div class="chorus">
+            <span class="chorus-tag">[Ritornello - Grido di Giustizia]</span>
+            <span class="yo-oh">Yo! Oh!</span> fa tremare la terra, 
+            <span class="yo-oh">Yo! Oh!</span> contro ogni guerra,
+            <span class="yo-oh">Yo! Oh!</span> per chi gli innocenti strazia,
+            <span class="yo-oh">Yo! Oh!</span> noi chiediamo giustizia!
+        </div>
+
+        <!-- STROFA 2 -->
+        <div class="stanza">
+            Tremate capitani vigliacchi, 
+            con la vita non si gioca a scacchi,
+            <span class="yo-oh">Yo! Oh!</span> voi giocate alla guerra,
+            <span class="yo-oh">Yo! Oh!</span> a voi tremerà la terra.
+        </div>
+
+        <!-- STROFA 3 -->
+        <div class="stanza">
+            Corano o Bibbia?
+            la vita è la vera essenza.
+            massacrano innocenti, 
+            non lo vedete?
+        </div>
+
+        <!-- RITORNELLO 2 -->
+        <div class="chorus">
+            <span class="chorus-tag">[Ritornello - Grido di Giustizia]</span>
+            <span class="yo-oh">Yo! Oh!</span> fa tremare la terra, 
+            <span class="yo-oh">Yo! Oh!</span> contro ogni guerra,
+            <span class="yo-oh">Yo! Oh!</span> per chi gli innocenti strazia,
+            <span class="yo-oh">Yo! Oh!</span> noi chiediamo giustizia!
+        </div>
+
+        <!-- STROFA 4 -->
+        <div class="stanza">
+            <span class="yo-oh">Yo! Oh!</span> contro l'arroganza,
+            <span class="yo-oh">Yo! Oh!</span> a chi uccide la speranza
+            <span class="yo-oh">Yo! Oh!</span> il Dio che dite di amare, 
+            <span class="yo-oh">Yo! Oh!</span> possa farvi bruciare.
+        </div>
+
+        <!-- RITORNELLO 3 -->
+        <div class="chorus">
+            <span class="chorus-tag">[Ritornello - Grido di Giustizia]</span>
+            <span class="yo-oh">Yo! Oh!</span> fa tremare la terra, 
+            <span class="yo-oh">Yo! Oh!</span> contro ogni guerra,
+            <span class="yo-oh">Yo! Oh!</span> per chi gli innocenti strazia,
+            <span class="yo-oh">Yo! Oh!</span> noi chiediamo giustizia!
+        </div>
+
+        <!-- OUTRO -->
+        <div class="stanza" style="text-align: center; margin-bottom: 0;">
+            <span class="yo-oh">Yo! Oh!</span> questo è il nostro grido!
+            <span class="yo-oh">Yo! Oh!</span> salviamo ogni bambino,
+            <span class="yo-oh">Yo! Oh!</span> salviamo ogni bambino.
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© Ascolta la mia musica su <a href="https://audiomack.com/setmida" target="_blank">Audiomack</a></p>
+    </footer>
+</div>
+
+</body>
+</html>
